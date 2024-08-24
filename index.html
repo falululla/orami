@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orami Bags</title>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- CSS frame work -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- main-stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- icon font -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- scroll animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- slider -->
+    <link rel="stylesheet" href="css/custom/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/custom/owl.theme.default.min.css">
+</head>
+
+<body>
+
+    <header class="main-header fixed-top">
+        <!-- desktop -->
+        <div class="desk-header w-100 d-none d-lg-block">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a href="index.html" class="barnd">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <div>
+                    <ul class="main-menu">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Products</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- mobile -->
+        <div class="mob-header d-lg-none">
+            <div class="container-xl d-flex align-items-center justify-content-between">
+                <a href="index.html" class="barnd">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <a class="menu-mob" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="ri-menu-5-line"></i>
+                </a>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+
+                <div class="offcanvas-body">
+                    <ul class="main-menu">
+                        <li>
+                            <a href="#" class="mobile-menu-close">
+                                <img src="img/logo.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="mobile-menu-close">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="mobile-menu-close">Our Products</a>
+                        </li>
+                        <li>
+                            <a href="#" class="mobile-menu-close">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="mobile-menu-close">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <section class="main-banner">
+        <div id="banner-slider" class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="img/banner.webp" alt="Orami Bags" class="d-none d-md-block">
+            <img src="img/banner-mobi.webp" alt="Orami Bags" class="d-md-none">
+          </div>
+          <div class="item">
+            <img src="img/banner.webp" alt="Orami Bags" class="d-none d-md-block">
+            <img src="img/banner-mobi.webp" alt="Orami Bags" class="d-md-none">
+          </div>
+          <div class="item">
+            <img src="img/banner.webp" alt="Orami Bags" class="d-none d-md-block">
+            <img src="img/banner-mobi.webp" alt="Orami Bags" class="d-md-none">
+          </div>
+          <div class="item">
+            <img src="img/banner.webp" alt="Orami Bags" class="d-none d-md-block">
+            <img src="img/banner-mobi.webp" alt="Orami Bags" class="d-md-none">
+          </div>
+        </div>
+    </section>
+
+    <section class="stripe-banner d-flex justify-content-lg-around align-items-center margin-bottom">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center gap-3 w-100">
+                        <svg viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="64" height="64.0349" rx="20" fill="#F6D52E"/> <rect width="64" height="64.0349" rx="20" fill="#FDC300"/> <path d="M38.9777 34.8888C38.4856 34.3764 37.8921 34.1025 37.2631 34.1025C36.6392 34.1025 36.0406 34.3714 35.5282 34.8837L33.9252 36.4816C33.7934 36.4106 33.6615 36.3447 33.5346 36.2787C33.352 36.1874 33.1796 36.1012 33.0324 36.0099C31.5309 35.0562 30.1663 33.8134 28.8576 32.2053C28.2235 31.4038 27.7974 30.7291 27.4879 30.0443C27.9039 29.6639 28.2894 29.2682 28.6648 28.8877C28.8069 28.7457 28.9489 28.5986 29.0909 28.4565C30.1562 27.3913 30.1562 26.0115 29.0909 24.9462L27.7061 23.5614C27.5488 23.4041 27.3865 23.2418 27.2343 23.0794C26.9299 22.7649 26.6104 22.4403 26.2806 22.1359C25.7886 21.6489 25.2001 21.3902 24.5813 21.3902C23.9624 21.3902 23.3638 21.6489 22.8565 22.1359L22.8464 22.1461L21.1217 23.886C20.4723 24.5353 20.102 25.3267 20.0209 26.2448C19.8991 27.7261 20.3354 29.1059 20.6702 30.0088C21.492 32.2256 22.7196 34.2801 24.5508 36.4816C26.7727 39.1347 29.446 41.2297 32.4998 42.7059C33.6665 43.2588 35.2239 43.9132 36.9638 44.0248C37.0703 44.0299 37.1819 44.0349 37.2834 44.0349C38.4552 44.0349 39.4393 43.6139 40.2104 42.7769C40.2154 42.7667 40.2256 42.7617 40.2307 42.7515C40.4944 42.4319 40.7988 42.1428 41.1184 41.8334C41.3365 41.6254 41.5597 41.4072 41.7778 41.179C42.28 40.6565 42.5438 40.0478 42.5438 39.4238C42.5438 38.7948 42.275 38.1911 41.7626 37.6839L38.9777 34.8888ZM40.7937 40.2304C40.7887 40.2304 40.7887 40.2354 40.7937 40.2304C40.5959 40.4434 40.393 40.6362 40.1749 40.8492C39.8451 41.1638 39.5103 41.4935 39.1958 41.8638C38.6835 42.4117 38.0798 42.6704 37.2885 42.6704C37.2124 42.6704 37.1312 42.6704 37.0551 42.6653C35.5485 42.5689 34.1484 41.9805 33.0984 41.4783C30.2272 40.0883 27.7061 38.115 25.611 35.6142C23.8812 33.5293 22.7246 31.6016 21.9587 29.532C21.4869 28.2689 21.3144 27.2847 21.3905 26.3564C21.4412 25.7629 21.6695 25.2709 22.0906 24.8498L23.8204 23.12C24.0689 22.8867 24.3327 22.7599 24.5914 22.7599C24.911 22.7599 25.1697 22.9526 25.332 23.115L25.3472 23.1302C25.6567 23.4193 25.9509 23.7186 26.2603 24.0382C26.4176 24.2005 26.5799 24.3628 26.7423 24.5303L28.1271 25.9151C28.6648 26.4528 28.6648 26.9499 28.1271 27.4877C27.98 27.6348 27.838 27.7819 27.6909 27.9239C27.2647 28.3602 26.8589 28.766 26.4176 29.1617C26.4075 29.1718 26.3973 29.1769 26.3922 29.187C25.956 29.6233 26.0371 30.0494 26.1284 30.3385L26.1437 30.3842C26.5038 31.2567 27.0111 32.0785 27.7822 33.0575L27.7872 33.0626C29.1873 34.7873 30.6635 36.1316 32.2918 37.1614C32.4998 37.2933 32.7129 37.3998 32.9158 37.5012C33.0984 37.5926 33.2709 37.6788 33.418 37.7701C33.4383 37.7802 33.4586 37.7955 33.4788 37.8056C33.6513 37.8918 33.8136 37.9324 33.981 37.9324C34.4021 37.9324 34.6659 37.6686 34.7521 37.5824L36.487 35.8475C36.6595 35.6751 36.9334 35.4671 37.253 35.4671C37.5675 35.4671 37.8262 35.6649 37.9834 35.8374L37.9936 35.8475L40.7887 38.6426C41.3112 39.16 41.3112 39.6927 40.7937 40.2304ZM32.9716 25.7173C34.3006 25.9405 35.5079 26.5695 36.4718 27.5333C37.4356 28.4971 38.0595 29.7044 38.2878 31.0335C38.3436 31.3683 38.6327 31.6016 38.9625 31.6016C39.0031 31.6016 39.0386 31.5966 39.0791 31.5915C39.4545 31.5306 39.7031 31.1755 39.6422 30.8002C39.3683 29.1921 38.6074 27.7261 37.4457 26.5644C36.2841 25.4028 34.8181 24.6419 33.21 24.3679C32.8346 24.307 32.4846 24.5556 32.4186 24.9259C32.3527 25.2962 32.5962 25.6564 32.9716 25.7173ZM43.9896 30.6023C43.5381 27.9543 42.2902 25.5448 40.3727 23.6273C38.4552 21.7098 36.0457 20.4619 33.3977 20.0104C33.0274 19.9445 32.6774 20.1981 32.6114 20.5684C32.5505 20.9438 32.7991 21.2938 33.1745 21.3598C35.5384 21.7605 37.6943 22.8816 39.4089 24.5911C41.1235 26.3057 42.2395 28.4616 42.6402 30.8255C42.696 31.1603 42.9852 31.3937 43.3149 31.3937C43.3555 31.3937 43.391 31.3886 43.4316 31.3835C43.8019 31.3277 44.0555 30.9726 43.9896 30.6023Z" fill="#873B14"/> </svg> 
+                        <div class="paragraph text-white">+971 56 409 1500</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-2 mt-md-0">
+                    <div class="d-flex align-items-center gap-3 w-100">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="64" height="64" rx="20" fill="#FDC300"/> <path d="M42 23H22C20.897 23 20 23.897 20 25V39C20 40.103 20.897 41 22 41H42C43.103 41 44 40.103 44 39V25C44 23.897 43.103 23 42 23ZM22 24H42C42.0737 24 42.1386 24.0268 42.2078 24.042C40.4763 25.6267 34.7348 30.8792 32.7256 32.6894C32.5684 32.831 32.315 33 32 33C31.6851 33 31.4317 32.831 31.274 32.689C29.2649 30.879 23.5232 25.6263 21.7919 24.0421C21.8612 24.0269 21.9263 24 22 24ZM21 39V25C21 24.902 21.0295 24.8132 21.056 24.7236C22.3812 25.9366 26.3873 29.6015 28.985 31.9636C26.3958 34.1877 22.3886 37.9868 21.0528 39.2606C21.0292 39.1756 21 39.0924 21 39ZM42 40H22C21.9201 40 21.8491 39.9722 21.7745 39.9544C23.1549 38.6385 27.1875 34.8175 29.7312 32.6414C30.0219 32.9053 30.313 33.1687 30.6045 33.4317C31.0166 33.8038 31.499 34 32 34C32.501 34 32.9834 33.8037 33.395 33.4321C33.6867 33.169 33.9779 32.9054 34.2688 32.6414C36.8126 34.8173 40.8447 38.638 42.2255 39.9544C42.1509 39.9722 42.08 40 42 40ZM43 39C43 39.0924 42.9708 39.1756 42.9472 39.2606C41.6109 37.9862 37.6042 34.1875 35.0151 31.9637C37.6128 29.6015 41.6183 25.937 42.944 24.7235C42.9705 24.8131 43 24.902 43 25V39Z" fill="#873B14"/> </svg>
+                        <div class="paragraph text-white">support@oramibags.com</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-2 mt-md-0">
+                    <div class="d-flex align-items-center gap-3 w-100">
+                        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="64" height="64" rx="20" fill="#FDC300"/> <path d="M39.1778 22.9731C37.2606 21.0559 34.7115 20 32.0001 20C29.2888 20 26.7396 21.0559 24.8225 22.9731C22.9052 24.8904 21.8494 27.4394 21.8494 30.1507C21.8494 35.6357 27.0355 40.1978 29.8217 42.6487C30.2089 42.9893 30.5433 43.2834 30.8097 43.5322C31.1434 43.844 31.5718 43.9999 32.0001 43.9999C32.4285 43.9999 32.8568 43.844 33.1906 43.5322C33.457 43.2834 33.7913 42.9893 34.1785 42.6487C36.9647 40.1977 42.1509 35.6357 42.1509 30.1507C42.1508 27.4394 41.095 24.8904 39.1778 22.9731ZM33.2499 41.5932C32.8543 41.9412 32.5126 42.2418 32.2309 42.5049C32.1014 42.6257 31.8988 42.6258 31.7693 42.5049C31.4876 42.2417 31.1459 41.9412 30.7502 41.5931C28.1308 39.289 23.2551 35 23.2551 30.1508C23.2551 25.3288 27.1781 21.4059 32.0001 21.4059C36.822 21.4059 40.7449 25.3288 40.7449 30.1508C40.745 35 35.8693 39.289 33.2499 41.5932Z" fill="#873B14"/> <path d="M32.0002 25.294C29.5336 25.294 27.5269 27.3007 27.5269 29.7673C27.5269 32.2339 29.5336 34.2406 32.0002 34.2406C34.4668 34.2406 36.4735 32.2339 36.4735 29.7673C36.4735 27.3007 34.4668 25.294 32.0002 25.294ZM32.0002 32.8346C30.3088 32.8346 28.9327 31.4586 28.9327 29.7672C28.9327 28.0759 30.3088 26.6998 32.0002 26.6998C33.6916 26.6998 35.0676 28.0759 35.0676 29.7672C35.0676 31.4586 33.6916 32.8346 32.0002 32.8346Z" fill="#873B14"/> </svg>
+                        <div class="paragraph text-white">Warehouse Unit 4, Block4, Dubai Investment Park 2 Duabi - UAE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-slider padding-top padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div id="product-slider" class="owl-carousel owl-theme">
+                  <div class="item">
+                    <img src="img/pr-1.png" alt="Orami Bags">
+                  </div>
+                  <div class="item">
+                    <img src="img/pr-2.png" alt="Orami Bags">
+                  </div>
+                  <div class="item">
+                    <img src="img/pr-3.png" alt="Orami Bags">
+                  </div>
+                  <div class="item">
+                    <img src="img/pr-4.png" alt="Orami Bags">
+                  </div>
+                  <div class="item">
+                    <img src="img/pr-5.png" alt="Orami Bags">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products padding-top padding-bottom">
+        <div class="container">
+            <h3 class="h1 text-title mb-4">Latest Products</h3>
+            <div class="row pt-2">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="grid">
+                        <div class="offer-label">10%</div>
+                        <img src="img/products/prod-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="h5 mb-1 mt-4">Multi Backpack</div>
+                        <div class="price">AED <span class="p-now">99.90</span>  <span class="p-was">250.00</span></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="grid">
+                        <div class="offer-label">10%</div>
+                        <img src="img/products/prod-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="h5 mb-1 mt-4">Ladies Bag</div>
+                        <div class="price">AED <span class="p-now">100.00</span>  <span class="p-was">120.00</span></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="grid">
+                        <div class="offer-label">10%</div>
+                        <img src="img/products/prod-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="h5 mb-1 mt-4">Multi Backpack</div>
+                        <div class="price">AED <span class="p-now">229.00</span>  <span class="p-was">260.00</span></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="grid">
+                        <div class="offer-label">10%</div>
+                        <img src="img/products/prod-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="h5 mb-1 mt-4">Telescopic Trolley</div>
+                        <div class="price">AED <span class="p-now">120.00</span>  <span class="p-was">150.00</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-bottom padding-top padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="bg-img d-flex align-items-center justify-content-center" style="background: url(img/banner-bottom.png);">
+                        <div class="text-center">
+                            <div class="paragraph text-white mb-4 text-uppercase offer">Up To 40% Off</div>
+                            <h2 class="h1 text-white">Home Furnishing</h2>
+                            <div class="paragraph text-white mb-4">Elegant, affordable furnishings that transform your home into a cozy haven</div>
+                            <a href="#" class="btn btn-primary mt-2">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="best-seller padding-top padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 text-center offset-xl-4 mb-5">
+                    <h2 class="h1 text-dark">Best Sellers</h2>
+                    <div class="paragraph text-paragraph">Explore our best sellers, where top-rated products meet exceptional quality and timeless style</div>
+                </div>
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="img/bestseller-ad.png" alt="Orami Bags" class="img-fluid">
+                </div>
+                <div class="col-lg-6 products">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="grid">
+                                <div class="offer-label">10%</div>
+                                <img src="img/products/prod-5.png" alt="">
+                            </div>
+                            <div class="content">
+                                <div class="h5 mb-1 mt-4">School Bag</div>
+                                <div class="price">AED <span class="p-now">99.90</span>  <span class="p-was">250.00</span></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="grid">
+                                <div class="offer-label">10%</div>
+                                <img src="img/products/prod-6.png" alt="">
+                            </div>
+                            <div class="content">
+                                <div class="h5 mb-1 mt-4">Luggage</div>
+                                <div class="price">AED <span class="p-now">100.00</span>  <span class="p-was">120.00</span></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="grid">
+                                <div class="offer-label">10%</div>
+                                <img src="img/products/prod-7.png" alt="">
+                            </div>
+                            <div class="content">
+                                <div class="h5 mb-1 mt-4">Muntain Bag</div>
+                                <div class="price">AED <span class="p-now">229.00</span>  <span class="p-was">260.00</span></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="grid">
+                                <div class="offer-label">10%</div>
+                                <img src="img/products/prod-8.png" alt="">
+                            </div>
+                            <div class="content">
+                                <div class="h5 mb-1 mt-4">Luggage</div>
+                                <div class="price">AED <span class="p-now">120.00</span>  <span class="p-was">150.00</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="padding-bottom padding-top margin-top">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="#"><img src="img/logo.svg" alt=""></a>
+                    <div class="paragraph text-paragraph mt-4">
+                        We bring you a wide range of quality products designed to make your life easier and more enjoyable.
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                    <div class="h4 text-dark font-weight-600">
+                        Our Products
+                    </div>
+                    <div class="d-lg-flex">
+                        <div class="w-100">
+                            <a href="#" class="d-block paragraph text-paragraph mt-3">Luggage</a>
+                            <a href="#" class="d-block paragraph text-paragraph mt-3">School Bags</a>
+                            <a href="#" class="d-block paragraph text-paragraph mt-3">Back Packs</a>
+                            <a href="#" class="d-block paragraph text-paragraph mt-3">Mountain Bags</a>
+                        </div>
+                        <div class="w-100">
+                            <a href="#" class="d-block paragraph text-paragraph mt-3">Travel Accessories</a>
+                            <a href="#" class="d-block paragraph text-paragraph mt-3">Blankts</a>
+                            <a href="#" class="d-block paragraph text-paragraph mt-3">Home Furnishing</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                    <div class="h4 text-dark font-weight-600">
+                        Get In Touch
+                    </div>
+                    <div class="d-flex mt-3 gap-2">
+                        <div class="paragraph text-dark">Address:</div>
+                        <div class=" paragraph text-paragraph"> Warehouse Unit 4, Block4, Dubai Investment Park 2 Duabi - UAE</div>
+                    </div>
+                    <div class="d-flex mt-2 gap-2">
+                        <div class="paragraph text-dark">Phone Enquiry:</div>
+                        <div class=" paragraph text-paragraph">+971 56 409 1500</div>
+                    </div>
+                    <div class="d-flex mt-2 gap-2">
+                        <div class="paragraph text-dark">Email: </div>
+                        <div class=" paragraph text-paragraph">support@oramibags.com</div>
+                    </div>
+                    <div class="d-flex mt-3 gap-2">
+                        <div class="paragraph text-dark">Follow Us: </div>
+                        <div class=" paragraph text-paragraph">
+                            <a href="#"><i class="ri-instagram-fill"></i></a>
+                            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="w-100">
+        <div class="container">
+            <div class="row paragraph text-paragraph py-3 d-flex align-items-center justify-content-center text-center">
+                Copyright ©2024 All rights reserved
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/custom.js"></script>
+ 
+</body>
+</html>

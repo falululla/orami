@@ -1,0 +1,43 @@
+.main-banner {
+    background-color: var(--white);
+    width: 100%;
+    height: auto;
+    margin-top: 68px;
+    .owl-theme .owl-nav.disabled+.owl-dots{
+        margin-top: -28px !important;
+        z-index: 1 !important;
+        position: relative !important;
+        top: 0px;
+        @media (min-width: 992px) {
+            top: -20px;
+        }
+    }
+    .owl-theme .owl-dots .owl-dot span{
+        background: var(--white);
+    }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        background: var(--primary);
+    }
+    @media (min-width: 992px) {
+        margin-top: 88px;
+    }
+}
+
+.stripe-banner {
+    padding: 16px 0px;
+    min-height: 60px;
+    background: var(--secondary);
+    color: var(--white);
+
+    @media (min-width: 992px) {
+        min-height: 110px;
+        padding: 20px 24px;
+    }
+    svg{
+        width: 32px;
+        flex: 0 0 auto;
+        @media (min-width: 992px) {
+            width: 48px;
+        }
+    }
+}

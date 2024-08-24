@@ -1,0 +1,123 @@
+.menu-d {
+    li {
+        a {
+            font-size: 14px;
+            color: var(--white);
+        }
+    }
+}
+
+.menu-mob {
+    i {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        background: rgba(0, 0, 0, 0.05);
+        border: 1px solid var(--black);
+        color: var(--black);
+        transition: all 0.3s ease-out;
+    }
+}
+
+.menu-mobile {
+    background: #02091c;
+    position: fixed;
+    z-index: 13;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .menu-mobile {
+        background: none;
+        position: static;
+    }
+}
+
+.header {
+    transition: all 0.5s ease;
+}
+
+.top-fixed {
+    position: fixed;
+    background-color: var(--black);
+    z-index: 13;
+    padding: 20px 0px !important;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+    .logo {
+        height: 30px;
+    }
+}
+
+.offcanvas {
+    background-color: var(--secondary);
+    color: var(--white);
+    padding: 48px;
+    max-width: 310px;
+    ul{
+        li{
+            a{
+                color: var(--white);
+                font-size: 18px;
+                padding: 24px 0px;
+                display: flex;
+                font-weight: 100;
+                img{
+                    height: 70px;
+                }
+            }
+        }
+    }
+}
+
+
+// desk-header
+.desk-header {
+    position: absolute;
+    top: 0px;
+    padding: 14px 24px;
+    background: var(--white);
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+    .barnd {
+        img {
+            height: 60px;
+        }
+    }
+
+    .main-menu {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        li {
+            a {
+                color: var(--title);
+                padding: 0px 16px;
+                font-weight: normal;
+
+                &:hover {
+                    color: var(--secondary);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// mob-header
+.mob-header {
+    background-color: var(--white);
+    padding: 10px 0px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+    .barnd {
+        img {
+            height: 48px;
+        }
+    }
+}

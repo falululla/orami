@@ -1,0 +1,103 @@
+:root {
+    --white: #fff;
+    --primary: #FDC300;
+    --secondary: #873B14;
+    --black: #000;
+    --text: #fff;
+    // shades
+    --shade-1:#EDF7F5;
+    --shade-2:#D3EDE6;
+    --shade-3:#B0DED3;
+    --shade-4:#8BCEBE;
+    --shade-5:#68C0AB;
+    --shade-6:#47B298; // primary
+    --shade-7:#3C9781;
+    --shade-8:#327E6C;
+    --shade-9:#286557;
+    --shade-10:#205044;
+
+    // typo
+    --title:#000000;
+    --paragraph:#7E7E7E;
+}
+
+
+
+
+.text-white {
+    color: var(--white);
+}
+
+.text-title {
+    color: var(--title);
+}
+.text-paragraph {
+    color: var(--paragraph);
+}
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+.text-barnd {
+    color: var(--primary) !important;
+}
+
+// bg
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+.bg-gradient2 {
+    background: rgb(220, 238, 242);
+    background: linear-gradient(0deg, rgba(220, 238, 242, 0) 0%, rgba(220, 238, 242, 1) 100%);
+}
+.text-gradient{
+    background: -webkit-linear-gradient(180deg, #50C0FF, #875FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bg-green{
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    color: #12B019;
+    &:hover{
+        border: 1px solid #000
+    }
+}
+.bg-white{
+    background-color: var(--black)!important;
+}
+.bg-black{
+    background-color: var(--black)!important;
+}
+
+// shades
+.shade-1{
+    background-color: var(--shade-1);
+}
+.shade-2{
+    background-color: var(--shade-2);
+}
+.shade-3{
+    background-color: var(--shade-3);
+}
+.shade-4{
+    background-color: var(--shade-4);
+}
+.shade-5{
+    background-color: var(--shade-5);
+}
+.shade-6{
+    background-color: var(--shade-6);
+}
+.shade-7{
+    background-color: var(--shade-7);
+}
+.shade-8{
+    background-color: var(--shade-8);
+}
+.shade-9{
+    background-color: var(--shade-9);
+}
+.shade-10{
+    background-color: var(--shade-10);
+}

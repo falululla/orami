@@ -1,0 +1,45 @@
+.btn-primary {
+    transition: all 0.3s ease-out;
+    height: auto;
+    background: var(--primary);
+    border-radius: 0px;
+    color: var(--title);
+    gap: 8px;
+    border: none;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    @media (min-width: 992px) {
+        height: auto;
+    }
+    &:hover {
+        background: var(--secondary);
+        color: var(--white);
+    }
+}
+
+.btn-close {
+    width: 40px;
+    height: 40px;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 32px;
+    opacity: 1;
+    background-image: none;
+}
+
+.icon-watsap {
+    background-color: #247A37;
+    height: 44px;
+    width: 44px;
+    border-radius: 8px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: #2e8741;
+        color: var(--white);
+    }
+}
