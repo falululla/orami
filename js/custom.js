@@ -49,4 +49,10 @@ $(document).ready(function() {
 		$(this).addClass("active");
   	});
   })
-  AOS.init();
+
+  function goWhatsapp() {
+	var url = window.location.href;
+	var wpurl = 
+	"https://api.whatsapp.com/send?phone=919037385242&text=Hi, I am interested in your product on oramibags. Link:" + url;
+	window.open(wpurl, "_blank").focus();
+}
